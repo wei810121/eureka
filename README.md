@@ -1,6 +1,4 @@
 # eureka
-
----
 ## 使用jib方法
 1. 需要安裝jib檔案
 
@@ -12,7 +10,7 @@
 2. 在docker指令:
    1. 執行
        ```docker
-       wei@LAPTOP-7HS4AR2D:~$ docker run -d  -p 8900:8900 eureka:0.0.1-SNAPSHOT
+       docker run -d  -p 8900:8900 eureka:0.0.1-SNAPSHOT
        ```
    2. 查看執行
       ```
